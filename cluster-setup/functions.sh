@@ -541,7 +541,7 @@ k3sInstall(){
     #export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
     #bashas "chmod 700 /etc/rancher/k3s/k3s.yaml"
     printInfo "Setting up NGINX Ingress"
-    kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.2/deploy/static/provider/cloud/deploy.yaml
+    kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v2.0.0/deploy/static/provider/cloud/deploy.yaml
     waitForAllPods
   fi
 }
