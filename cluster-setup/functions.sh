@@ -23,7 +23,7 @@ TEASER_IMAGE="shinojosa/k8splaywebshell:v1.1"
 # https://github.com/ubuntu/microk8s/releases
 # snap info microk8s
 
-K3S_VERSION="v1.29.10+k3s1"
+K3S_VERSION="v1.35.3+k3s1"
 
 HELM_VERSION="v3.17.0"
 
