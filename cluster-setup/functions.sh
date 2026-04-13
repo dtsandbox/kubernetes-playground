@@ -28,7 +28,7 @@ K3S_VERSION="v1.29.10+k3s1"
 HELM_VERSION="v3.17.0"
 
 MICROK8S_CHANNEL="1.32/stable"
-K8S_PLAY_REPO="https://github.com/dynatrace-wwse/kubernetes-playground.git"
+K8S_PLAY_REPO="https://github.com/dtsandbox/kubernetes-playground.git"
 
 # - The user to run the commands from. Will be overwritten when executing this shell with sudo, this is just needed when spinning machines programatically and running the script with root without an interactive shell
 USER="ubuntu"
