@@ -38,7 +38,7 @@ K8S_PLAY_DIR="/home/$USER/k8s-play"
 KEPTN_EXAMPLES_DIR="/home/$USER/examples"
 
 # - The user to run the commands from. Will be overwritten when executing this shell with sudo, this is just needed when spinning machines programatically and running the script with root without an interactive shell
-HOSTNAME="se-k8s-onboarding"
+HOSTNAME="k8s-onboarding"
 
 # Magic Domain - default magic domain. Can be overridden for e.g. .sslip.io 
 # It needs to start with . 
